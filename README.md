@@ -23,3 +23,5 @@ To output to a file for easier copying and pasting:
 # Disclaimer
 
 This quick and dirty script was written for online posting of run details, for discussion and learning purpose. It is not affiliated with, endorsed by, or in any way officially connected with [Mega Crit Games](https://www.megacrit.com/), or any of its subsidiaries or affiliates.
+
+There is no input sanitization, no type checking, no error handling. Use at your own, admittedly very small, risk.
