@@ -8,17 +8,12 @@ Generate a bare-bones log in markdown format from a Slay the Spire run file.
 
 - macOS: `/Users/{username}/Library/Application\ Support/Steam/steamapps/common/SlayTheSpire/SlayTheSpire.app/Contents/Resources/runs`
 
-### Run the script, passing the file as an argument
+### Run the script
 
-If inside the above folder, simply do (your file name will vary):
-
-`python stslog.py 1748809706.run`
-
-### Output to file
-
-To output to a file for easier copying and pasting:
-
-`python stslog.py 1748809706.run > filename.md`
+1. Save `index.html` and `stslog.js` into an empty folder.
+2. Open `index.html` in a browser.
+3. Drag the `.run` file onto the dropzone.
+4. Copy & paste the displayed text.
 
 # Disclaimer
 
