@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Slay the Spire Log</title>
+  <style>
+    #dropzone {
+      border: 2px dashed #999;
+      padding: 40px;
+      text-align: center;
+      margin: 50px auto;
+      width: 400px;
+      font-family: sans-serif;
+      color: #666;
+      border-radius: 10px;
+      transition: border-color 0.2s ease;
+    }
+    #dropzone.hover {
+      border-color: #333;
+      color: #333;
+    }
+    pre {
+      max-width: 90%;
+      margin: 30px auto;
+      white-space: pre-wrap;
+      font-family: monospace;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="dropzone">Drag a .run file here</div>
+  <pre id="output"></pre>
+
+  <script src="stslog.js"></script>
+
+</body>
+</html>
